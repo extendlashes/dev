@@ -1,0 +1,63 @@
+@main-color: #4c003f;
+@link-color: orange;
+@space: 3px;
+@border-width: 1.5px;
+@background: #ffeaf5;
+
+
+
+* {
+  font-family: "Times New Roman";
+  color: @main-color;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: @background;
+}
+table {
+  border-collapse: collapse;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: @link-color;
+  font-weight: bold;
+}
+
+.wrapper {
+  padding: 8px;
+}
+
+.clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+
+
+.font-xxs {
+  font-size: 12px;
+}
+.font-xs {
+  font-size: 15px;
+}
+.font-s {
+  font-size: 18px;
+}
+.font-m {
+  font-size: 21px;
+}
+.font-l {
+  font-size: 24px;
+}
+.font-xl {
+  font-size: 27px;
+}
+.font-xxl {
+  font-size: 30px;
+}
